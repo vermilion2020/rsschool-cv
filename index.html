@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#about-me">About me</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#code-example">Code example</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#work-experience">Work experience</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#language-skills">Language</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="img/photo.png" alt="photo">
+        </div>
+        <h1>Tuseeva Militsa</h1>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><span class="bold">Phone:</span> +7 (911) 213-09-40</li>
+                <li><span class="bold">Email:</span> 99rest9900@gmail.com</li>
+                <li><span class="bold">Discord:</span> Mila (@vermilion2020)</li>
+            </ul>
+        </section>
+        <section id="about-me">
+            <h2>About me</h2>
+            <p>I've worked as QA engineer for last several years and manual testing become boring for me. </p>
+            <p>Now mostly working as QA automation engineer.</p>
+            <p>I want to improve my programing skills and plan to change my career to Front-end developer.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages
+                    <ul>
+                        <li>Javascript</li>
+                        <li>Typescript</li>
+                        <li>Css</li>
+                        <li>Html</li>
+                        <li>Sql</li>
+                    </ul>
+                </li>
+                <li>Git</li>
+                <li>Frameworks
+                    <ul>
+                        <li>Angular</li>
+                        <li>Cypress</li>
+                        <li>Playwright</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="code-example">
+            <h2>Code example</h2>
+            <h3>Codewars - SumArrays:</h3>
+            <p>Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.</p>
+            <code>
+                function sum (numbers) {
+                    "use strict";
+                    let sum = numbers.reduce(
+                      (sum, curr) => sum + +curr, 0);
+                      return sum;
+                  };
+            </code>
+        </section>
+        <section id="work-experience">
+            <h2>Work experience</h2>
+            <h3>Senior QA engineer - JSC Arcadia Inc (2018 - 2021)</h3>
+            <ul>
+                <li>Functional testing of new features</li>
+                <li>Creating and supporting of automated tests(cypress)</li>
+                <li>Regression testing</li>
+            </ul>
+            <h3>QA engineer - CloudCrafting (2016 - 2018)</h3>
+            <ul>
+                <li>Test cases design</li>
+                <li>Functional and regression testing</li>
+                <li>Creating articles for knowledge base</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Udemy (2020-2021)</h3>
+            <ul>
+                <li>Understanding TypeScript</li>
+                <li>API Testing with Python 3 & PyTest, Backend Automation</li>
+                <li>Angular & NodeJS - The MEAN Stack Guide</li>
+            </ul>
+            <h3>Software-testing.ru (2016)</h3>
+            <p>Automation of functional testing </p>
+            <h3>St. Petersburg State University of Engineering and Economics (2006 - 2010)</h3>
+            <p>Information Technologies in Economics, Applied Informatics in Economics</p>
+        </section>
+        <section id="language-skills">
+            <h2>Language skills</h2>
+            <p>English (B1)</p>
+        </section>
+    </main>
+</body>
+</html>
