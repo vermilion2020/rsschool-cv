@@ -1,10 +1,3 @@
-<style>
-    img {
-        width: 200px;
-        height: 235px;
-        border-radius: 10px;
-    }
-</style>
 ![photo](/img/photo.png)
 # Tuseeva Militsa
 ## Contact 
