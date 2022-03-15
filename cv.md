@@ -26,6 +26,8 @@ I want to improve my programing skills and plan to change my career to Front-end
  - Playwright 
 
 ## Code example
+### Codewars - SumArrays: 
+Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.
 
 ```
 function sum (numbers) {
@@ -57,7 +59,7 @@ function sum (numbers) {
 ### Software-testing.ru (2016)
 Automation of functional testing 
 
-###  St. Petersburg State University of Engineering and Economics (2006 - 2010)
+### St. Petersburg State University of Engineering and Economics (2006 - 2010)
 Information Technologies in Economics, Applied Informatics in Economics
 
 ## Language skills
