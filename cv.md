@@ -19,6 +19,7 @@ I want to improve my programing skills and plan to change my career to Front-end
  - Css 
  - Html 
  - Sql
+
 ### Git
 ### Frameworks 
  - Angular
